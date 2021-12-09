@@ -8,6 +8,6 @@ package afavorito.springframework.sfgpetclinic.model;
  *
  * 
  */
-public class Person {
+public class Owner extends Person {
 
 }

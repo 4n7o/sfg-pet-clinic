@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationContext;
 public class SfgPetClinicApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext ctx = SpringApplication.run(SfgPetClinicApplication.class, args);
+		SpringApplication.run(SfgPetClinicApplication.class, args);
 
 	}
 
