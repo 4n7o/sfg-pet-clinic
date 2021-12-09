@@ -42,7 +42,7 @@
   </scm>
 
 	<modules>
-		<module>pc-data</module>
-		<module>pc-web</module>
+		<module>pet-clinic-data</module>
+		<module>pet-clinic-web</module>
 	</modules>
 </project>
