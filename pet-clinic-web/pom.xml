@@ -5,7 +5,7 @@
 		<artifactId>sfg-pet-clinic</artifactId>
 		<version>2.6.1</version>
 	</parent>
-	<artifactId>pc-web</artifactId>
+	<artifactId>pet-clinic-web</artifactId>
 	
 	<dependencies>
 		<dependency>
