@@ -3,8 +3,6 @@
  */
 package afavorito.springframework.sfgpetclinic.services;
 
-import java.util.Set;
-
 import afavorito.springframework.sfgpetclinic.model.Owner;
 
 /**
@@ -12,14 +10,10 @@ import afavorito.springframework.sfgpetclinic.model.Owner;
  *
  * 
  */
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, Long> {
 
 	Owner findLastName(String lastName);
 
-	Owner findById(Long id);
 
-	Owner save(Owner owner);
-
-	Set<Owner> findAll();
 
 }
